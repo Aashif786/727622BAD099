@@ -9,9 +9,9 @@ function App() {
     <div className="container py-4">
         <h1 className='text-center mb-4'> Social Media Analytics</h1>
         <nav>
-            <NavLink to='/' className="btn btn-outline-primary me-2">Top Users</NavLink>
-            <NavLink to='/trending' className = "btn btn-outline-primary me-2">Trending Posts</NavLink>
-            <NavLink to='/feed' className = "btn btn-outline-primary me-2">Feed</NavLink>
+            <NavLink to='/' className="btn btn-outline-primary me-2 mrg">Top Users</NavLink>
+            <NavLink to='/trending' className = "btn btn-outline-primary me-2 mrg">Trending Posts</NavLink>
+            <NavLink to='/feed' className = "btn btn-outline-primary me-2 mrg">Feed</NavLink>
         </nav>
 
         <Routes>
