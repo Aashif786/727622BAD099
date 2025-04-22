@@ -4,7 +4,7 @@ const Feed = () => {
     const [posts, setPosts] = useState([]);
     useEffect(() => {
         const fetchPosts = async () => {
-            const response = await fetch('http://20.244.56.144/evaluation-service/users/:userid/posts');
+            const response = await fetch('http://jsonplaceholder.typicode.com/posts');
             const data = await response.json();
             const sortedPosts = data.sort((a, b) => b.id - a.id);
             setPosts(sortedPosts);
